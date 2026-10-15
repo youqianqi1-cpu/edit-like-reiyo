@@ -17,3 +17,7 @@ Windows 草稿接口随包保留 [aoguai/pyJianYingDraft](https://github.com/aog
 - [得意黑 Smiley Sans 2.0.1](https://github.com/atelier-anchor/smiley-sans/releases/tag/v2.0.1)：atelierAnchor，SIL OFL 1.1；原字体未修改。
 - 授权原文位于 `edit-like-reiyo/assets/starter/licenses/`，分享资源时保持这些文件。音效的原始名称、页面与用途见 `assets/starter/catalog.json`。
 - 这些是公开资源中的基础候选，不是 Reiyo 私人收藏文件；没有逐项宣称 Reiyo 已试听认可。字体与声音的各自授权不等于本 Skill 其他内容采用同一许可证。
+
+## Reiyo 剪映收藏检索目录
+
+本版新增 38 项名称、来源线索及选用方法，不包含剪映声音文件，也不授予平台素材的商用或再分发许可。由使用者在自己的剪映获取并核对当项许可。旧版 Kenney 音效仍作为明确选择后的可选资源保留，不代表 Reiyo 私人收藏。

@@ -6,7 +6,9 @@
 
 免费试用，适合已经在使用 Codex、电脑上装有剪映专业版的真人口播创作者。
 
-**v0.1.1 已加入基础资源：18 个短音效＋思源黑体、得意黑两款字体。没有个人收藏也能开始，已有字幕和声音偏好仍优先。**
+**v0.1.2 新增 Reiyo 的 38 项剪映收藏音效检索目录：没有同款收藏，也可以让 Codex 到你自己的剪映音效库查找并添加。思源黑体与得意黑两款字体继续随包提供，已有偏好优先。**
+
+这次在 Mac 原账号用公开搜索取得五种候选并放进独立试音草稿，其中两种实际经过下载后添加，保存重开成功。新账号、Windows 与成片配音效果尚待验证；同名声音要核对，部分项目不可商用，需要按当前视频用途选择。
 
 ## 第一次：把这句话发给 Codex
 
@@ -40,7 +42,7 @@
 | Windows 64 位 | 已加入实验执行办法。首次准备本地工具和识别模型，先试一个新草稿里的短段；尚未在 Windows 真机验收。 |
 | Intel Mac、旧版 macOS、其他剪映版本 | 尚未验证，不要求为试用升级系统或降级剪映。 |
 
-包内提供允许分享的基础音效和字体，并附原始授权；声音是公开资源中的功能候选，未逐项获得 Reiyo 的试听认可。包内不包含 Codex 会员、电脑操作权限、Reiyo 的私人收藏或原视频。自己的产品和工作过程等真实素材，仍从你允许使用的位置寻找。
+包内提供允许分享的字体与原始授权；Reiyo 的剪映收藏以名称、来源及选用方法提供，不附平台声音文件。原有 18 个公开音效保留为用户明确选择后的备选，不作为 Reiyo 风格的默认声音。公开查找需要当前 Codex 具备电脑操作能力；没有该能力时会说明具体缺项，不宣称已经自动取音。包内不包含 Codex 会员、电脑操作权限或 Reiyo 的原视频。自己的产品和工作过程等真实素材，仍从你允许使用的位置寻找。
 
 
 首次请准备真人口播。纯录屏教学、复杂 Vlog 或剧情片另行确认范围。默认交付可编辑新草稿，不额外导出。
@@ -63,10 +65,10 @@
 7. 检查 name 为 `edit-like-reiyo`、description 非空、关联文件齐全。可使用本机已有 skill-creator 校验器；不要为了简单安装另外下载开发工具。
 8. 告诉用户安装位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
 
-完整包：[edit-like-reiyo-v0.1.1.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.1.zip)
+完整包：[edit-like-reiyo-v0.1.2.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.2.zip)
 
-SHA-256：`614ed47cd6d81e2c410ec8f4771362665749c85ec999a936b824f6c5089b8507`
+SHA-256：`bb03eba00a587bfeb0c1795226ba80cf884c4a3dde26c544060d31b3fe0e6818`
 
 </details>
 
-[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.1.zip) · 作者：[ReiyoLab](https://reiyolab.com)
+[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.2.zip) · 作者：[ReiyoLab](https://reiyolab.com)
