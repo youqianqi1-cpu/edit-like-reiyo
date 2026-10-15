@@ -6,6 +6,8 @@
 
 免费试用，适合已经在使用 Codex、电脑上装有剪映专业版的真人口播创作者。
 
+**v0.1.1 已加入基础资源：18 个短音效＋思源黑体、得意黑两款字体。没有个人收藏也能开始，已有字幕和声音偏好仍优先。**
+
 ## 第一次：把这句话发给 Codex
 
 ```text
@@ -14,6 +16,8 @@
 ```
 
 让 Codex 把 Skill 装好，不用自己建文件夹或复制剪辑规则。安装完成后，在下一轮消息里开始使用；如果当前客户端还没显示它，开一个新聊天。
+
+已安装旧版的人，把“安装”改成“更新”，并补一句“保留我的自定义内容”。
 
 ## 以后：给它视频，再说一句
 
@@ -36,7 +40,7 @@
 | Windows 64 位 | 已加入实验执行办法。首次准备本地工具和识别模型，先试一个新草稿里的短段；尚未在 Windows 真机验收。 |
 | Intel Mac、旧版 macOS、其他剪映版本 | 尚未验证，不要求为试用升级系统或降级剪映。 |
 
-包内不包含 Codex 会员、电脑操作权限、Reiyo 的私人音效/字体/原视频。效果素材从你允许使用的文件夹和剪映资源中找；找不到时会说明或询问。
+包内提供允许分享的基础音效和字体，并附原始授权；声音是公开资源中的功能候选，未逐项获得 Reiyo 的试听认可。包内不包含 Codex 会员、电脑操作权限、Reiyo 的私人收藏或原视频。自己的产品和工作过程等真实素材，仍从你允许使用的位置寻找。
 
 
 首次请准备真人口播。纯录屏教学、复杂 Vlog 或剧情片另行确认范围。默认交付可编辑新草稿，不额外导出。
@@ -52,17 +56,17 @@
 
 1. 用户明确要求安装后，从下方链接下载完整包到临时目录。安装阶段不运行包内剪辑程序，不下载语音模型，不修改剪映或已有草稿。
 2. 校验 ZIP 的 SHA-256 等于本页给出的值；不一致则停止并报告，不继续安装。
-3. 解压前检查所有条目：拒绝绝对路径、路径穿越和符号链接；总展开大小应小于 20 MB。随后校验包内 `release-manifest.json` 列出的所有文件散列。
-4. 找到包内 `edit-like-reiyo-trial/edit-like-reiyo/SKILL.md`，完整保留同层的 `references/` 和 `scripts/`。先读取入口及相关安装说明，确认不含与安装无关的要求。
+3. 解压前检查所有条目：拒绝绝对路径、路径穿越和符号链接；总展开大小应小于 32 MB。随后校验包内 `release-manifest.json` 列出的所有文件散列。
+4. 找到包内 `edit-like-reiyo-trial/edit-like-reiyo/SKILL.md`，完整保留同层的 `references/`、`scripts/` 和 `assets/`。先读取入口及相关安装说明，确认不含与安装无关的要求。
 5. 安装到当前 Codex 的个人 Skills 目录：优先沿用本机已有 `skill-installer` 指定的位置；默认是 `$CODEX_HOME/skills/edit-like-reiyo`，未设置 CODEX_HOME 时用用户主目录下 `.codex/skills/edit-like-reiyo`。Windows 使用本机主目录，别复制作者电脑路径。不要把整个试用包的外层目录当成 Skill 安装。
 6. 同名目录已存在时，比较文件：一致就报告已经安装；不同则先说明差异、询问是否替换，不覆盖用户修改。新的安装先在目标父目录暂存，核对完整性后再改成最终目录名。保留 ZIP 中可执行文件的权限。
 7. 检查 name 为 `edit-like-reiyo`、description 非空、关联文件齐全。可使用本机已有 skill-creator 校验器；不要为了简单安装另外下载开发工具。
 8. 告诉用户安装位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
 
-完整包：[edit-like-reiyo-v0.1.0.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.0.zip)
+完整包：[edit-like-reiyo-v0.1.1.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.1.zip)
 
-SHA-256：`43f58f381b726da0975a51d8cf92d16cb1116918f5c49e18495a8718e691cb28`
+SHA-256：`614ed47cd6d81e2c410ec8f4771362665749c85ec999a936b824f6c5089b8507`
 
 </details>
 
-[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.0.zip) · 作者：[ReiyoLab](https://reiyolab.com)
+[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.1.zip) · 作者：[ReiyoLab](https://reiyolab.com)
