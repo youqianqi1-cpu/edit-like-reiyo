@@ -6,15 +6,17 @@
 
 免费试用，适合已经在使用 Codex、电脑上装有剪映专业版的真人口播创作者。
 
-**v0.1.3 修复 Mac 声音读取：更换了读取工具，失败后可以从已完成步骤继续；不改已认可的剪辑、气口和字幕规则。**
+**v0.1.4 加入剪辑前的素材帧率与原声音量检查，保留 v0.1.3 的声音读取修复。已认可的气口、字幕和声音选择规则保持不变。**
 
-已在开发机用 10 分 11 秒 MP4 完成声音读取与逐字识别，并验证延迟起音、双声道转换、无音轨、坏文件和中断后继续。学员反馈的原片尚未取得，更新后先在原片上确认。时间线为空的界面操作问题不属于本次已验证修复。
+新草稿会根据实际选用的主素材确定帧率；检查原始左右声道的音量大小、逐秒变化和异常线索，不自动把所有声音放大。已有草稿、已确认剪口、字幕和用户自行修改的音量保持原样。
+
+已在 M 系列 Mac、剪映专业版 11.6.0 新建 15 秒测试草稿：原片为 24 帧，剪映实际显示 24.00 帧/秒，保存重开后保持一致；正常播放时左右声道音量表有变化，原声增益仍为 0.0 dB。发布包还完成了 10 分 11 秒原片的声音读取、音量统计与逐字识别。程序检查 15 项通过，3 项便携媒体依赖测试跳过；Windows 真机仍待验证。本次验证不等同于全片听感验收，也没有改动原有草稿。
 
 已安装的用户，把这句话交给 Codex：
 
-> 请按本页安装说明更新「剪出帧我」到 v0.1.3，保留我的自定义内容和已有草稿；然后用新版读取之前失败的原片，在新分析目录里验证声音和逐字字幕，通过后从已有进度继续剪，不重建整套工具；若失败就停下并告诉我具体卡点。
+> 请按本页安装说明更新「剪出帧我」到 v0.1.4，保留我的自定义内容和已有草稿。以后剪辑前先检查原片帧率和原声音量，新草稿跟随主素材帧率；已确认的剪口、字幕和我改过的内容不要动。
 
-v0.1.2 加入的 38 项剪映收藏音效检索目录、两款字体继续保留；声音仍从使用者自己可用的资源中选择。
+38 项剪映收藏音效检索目录、两款字体以及原有声音读取修复继续保留。本次没有加入新的网感包装规则。
 
 ## 第一次：把这句话发给 Codex
 
@@ -99,10 +101,10 @@ Mac 的应用记录通常在 ~/Library/Logs/com.openai.codex/，聊天记录通�
 7. 检查 name 为 `edit-like-reiyo`、description 非空、关联文件齐全。可使用本机已有 skill-creator 校验器；不要为了简单安装另外下载开发工具。
 8. 告诉用户安装位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
 
-完整包：[edit-like-reiyo-v0.1.3.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.3.zip)
+完整包：[edit-like-reiyo-v0.1.4.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.4.zip)
 
-SHA-256：`12b0fcbacf2de4292bc83aa83abe4b57def0ce024d4975abcba0231ff3b208c3`
+SHA-256：`64093ef0f9185757a53fe5b98d7b45b47581ba8aacb33b9e45ab991f1674bfd5`
 
 </details>
 
-[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.3.zip) · 作者：[ReiyoLab](https://reiyolab.com)
+[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.4.zip) · 作者：[ReiyoLab](https://reiyolab.com)
