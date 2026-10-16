@@ -6,9 +6,15 @@
 
 免费试用，适合已经在使用 Codex、电脑上装有剪映专业版的真人口播创作者。
 
-**v0.1.2 新增 Reiyo 的 38 项剪映收藏音效检索目录：没有同款收藏，也可以让 Codex 到你自己的剪映音效库查找并添加。思源黑体与得意黑两款字体继续随包提供，已有偏好优先。**
+**v0.1.3 修复 Mac 声音读取：更换了读取工具，失败后可以从已完成步骤继续；不改已认可的剪辑、气口和字幕规则。**
 
-这次在 Mac 原账号用公开搜索取得五种候选并放进独立试音草稿，其中两种实际经过下载后添加，保存重开成功。新账号、Windows 与成片配音效果尚待验证；同名声音要核对，部分项目不可商用，需要按当前视频用途选择。
+已在开发机用 10 分 11 秒 MP4 完成声音读取与逐字识别，并验证延迟起音、双声道转换、无音轨、坏文件和中断后继续。学员反馈的原片尚未取得，更新后先在原片上确认。时间线为空的界面操作问题不属于本次已验证修复。
+
+已安装的用户，把这句话交给 Codex：
+
+> 请按本页安装说明更新「剪出帧我」到 v0.1.3，保留我的自定义内容和已有草稿；然后用新版读取之前失败的原片，在新分析目录里验证声音和逐字字幕，通过后从已有进度继续剪，不重建整套工具；若失败就停下并告诉我具体卡点。
+
+v0.1.2 加入的 38 项剪映收藏音效检索目录、两款字体继续保留；声音仍从使用者自己可用的资源中选择。
 
 ## 第一次：把这句话发给 Codex
 
@@ -89,14 +95,14 @@ Mac 的应用记录通常在 ~/Library/Logs/com.openai.codex/，聊天记录通�
 3. 解压前检查所有条目：拒绝绝对路径、路径穿越和符号链接；总展开大小应小于 32 MB。随后校验包内 `release-manifest.json` 列出的所有文件散列。
 4. 找到包内 `edit-like-reiyo-trial/edit-like-reiyo/SKILL.md`，完整保留同层的 `references/`、`scripts/` 和 `assets/`。先读取入口及相关安装说明，确认不含与安装无关的要求。
 5. 安装到当前 Codex 的个人 Skills 目录：优先沿用本机已有 `skill-installer` 指定的位置；默认是 `$CODEX_HOME/skills/edit-like-reiyo`，未设置 CODEX_HOME 时用用户主目录下 `.codex/skills/edit-like-reiyo`。Windows 使用本机主目录，别复制作者电脑路径。不要把整个试用包的外层目录当成 Skill 安装。
-6. 同名目录已存在时，比较文件：一致就报告已经安装；不同则先说明差异、询问是否替换，不覆盖用户修改。新的安装先在目标父目录暂存，核对完整性后再改成最终目录名。保留 ZIP 中可执行文件的权限。
+6. 同名目录已存在时，比较文件：一致就报告已经安装；用户已明确要求更新时，先备份旧目录，核对上一版清单，只替换未被用户修改的随包文件；有自定义改动的文件保留并说明冲突，不覆盖用户修改。未获得更新授权时先询问是否替换。新的安装先在目标父目录暂存，核对完整性后再改成最终目录名。保留 ZIP 中可执行文件的权限。
 7. 检查 name 为 `edit-like-reiyo`、description 非空、关联文件齐全。可使用本机已有 skill-creator 校验器；不要为了简单安装另外下载开发工具。
 8. 告诉用户安装位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
 
-完整包：[edit-like-reiyo-v0.1.2.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.2.zip)
+完整包：[edit-like-reiyo-v0.1.3.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.3.zip)
 
-SHA-256：`bb03eba00a587bfeb0c1795226ba80cf884c4a3dde26c544060d31b3fe0e6818`
+SHA-256：`12b0fcbacf2de4292bc83aa83abe4b57def0ce024d4975abcba0231ff3b208c3`
 
 </details>
 
-[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.2.zip) · 作者：[ReiyoLab](https://reiyolab.com)
+[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.3.zip) · 作者：[ReiyoLab](https://reiyolab.com)
