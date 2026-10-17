@@ -1,6 +1,6 @@
 # 运行依赖
 
-本包不附带剪映程序库、商业字体、音效或私人视频。以下媒体依赖由 Windows 准备步骤安装，使用各项目自身许可证：
+本包不附带剪映程序库、商业字体、音效或私人视频。以下媒体依赖由 Windows 准备步骤或 Mac 备用路线按需安装，使用各项目自身许可证：
 
 - [PyAV](https://github.com/PyAV-Org/PyAV)，16.0.1：本地媒体解码、原始时间戳与抽帧。
 - [Pillow](https://github.com/python-pillow/Pillow)，12.0.0：波形、拼图与透明图形层。
@@ -21,3 +21,7 @@ Windows 草稿接口随包保留 [aoguai/pyJianYingDraft](https://github.com/aog
 ## Reiyo 剪映收藏检索目录
 
 本版新增 38 项名称、来源线索及选用方法，不包含剪映声音文件，也不授予平台素材的商用或再分发许可。由使用者在自己的剪映获取并核对当项许可。旧版 Kenney 音效仍作为明确选择后的可选资源保留，不代表 Reiyo 私人收藏。
+
+## 本地备用识别
+
+Mac 备用路线复用上述 PyAV 与 faster-whisper；从 PyPI 下载依赖，下载失败或超时后尝试清华大学 PyPI 镜像一次。模型来自 [Systran/faster-whisper-base](https://huggingface.co/Systran/faster-whisper-base)，在用户电脑本地识别，不上传素材。模型和运行环境不包含在此 ZIP 中；首次使用按需下载，后续复用。
