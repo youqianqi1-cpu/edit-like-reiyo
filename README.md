@@ -20,11 +20,13 @@
 
 > 请从 https://github.com/youqianqi1-cpu/edit-like-reiyo 更新「剪出帧我」到 v0.1.10，按页面安装说明核对完整包，保留我的个人偏好、自定义文件和已有草稿。先完成更新检查，不自动重新剪辑。
 
+安装或更新的版本以仓库当前 [VERSION](https://raw.githubusercontent.com/youqianqi1-cpu/edit-like-reiyo/main/VERSION) 为准，下载入口见当前 [README 原文件](https://raw.githubusercontent.com/youqianqi1-cpu/edit-like-reiyo/main/README.md)。
+
 ## 第一次：把这句话发给 Codex
 
 ```text
 帮我安装「剪出帧我」这个 Skill：https://github.com/youqianqi1-cpu/edit-like-reiyo
-请读取页面下方的“给 Codex 的安装说明”，替我完成下载、安装和检查。
+先直接读取仓库 main 分支当前的 VERSION 和 README.md，按最新说明下载、安装并核对版本，不使用搜索结果里的旧版安装包。
 ```
 
 让 Codex 把 Skill 装好，不用自己建文件夹或复制剪辑规则。安装完成后，在下一轮消息里开始使用；如果当前客户端还没显示它，重启 Codex 后再开一个新聊天。
@@ -96,14 +98,14 @@ Mac 的应用记录通常在 ~/Library/Logs/com.openai.codex/，聊天记录通�
 
 这是以 ZIP 分发的标准 Skill 文件夹。仓库根目录没有解压后的 Skill，不要将此链接直接交给仅支持仓库子目录的安装脚本后就宣告失败。
 
-1. 用户明确要求安装后，从下方链接下载完整包到临时目录。安装阶段不运行包内剪辑程序，不下载语音模型，不修改剪映或已有草稿。
+1. 用户明确要求安装后，先通过当前环境的直接下载工具读取 main 分支当前的 [VERSION](https://raw.githubusercontent.com/youqianqi1-cpu/edit-like-reiyo/main/VERSION) 与 [README.md 原文件](https://raw.githubusercontent.com/youqianqi1-cpu/edit-like-reiyo/main/README.md)，以这次实际读取的版本为准；不要只凭搜索结果、网页工具的缓存页面或某个历史 ZIP 名决定安装版本。原文件读取失败时报告未能确认当前版本，不退回历史包。再从当前 README 链接下载完整包到临时目录。安装阶段不运行包内剪辑程序，不下载语音模型，不修改剪映或已有草稿。
 2. 校验 ZIP 的 SHA-256 等于本页给出的值；不一致则停止并报告，不继续安装。
-3. 解压前检查所有条目：拒绝绝对路径、路径穿越和符号链接；总展开大小应小于 32 MB。随后校验包内 `release-manifest.json` 列出的所有文件散列。
+3. 解压前检查所有条目：拒绝绝对路径、路径穿越和符号链接；总展开大小应小于 32 MB。随后校验包内 `release-manifest.json` 列出的所有文件散列，并确认包内 `VERSION`、清单版本和 `edit-like-reiyo/PACKAGE.json` 版本均与刚读取的仓库 VERSION 一致。文件完整但版本过旧也不得安装；重新获取当前说明和包一次，仍不一致则停止。
 4. 找到包内 `edit-like-reiyo-trial/edit-like-reiyo/SKILL.md`，完整保留同层的 `references/`、`scripts/` 和 `assets/`。先读取入口及相关安装说明，确认不含与安装无关的要求。
 5. 安装到当前 Codex 的个人 Skills 目录：优先沿用本机已有 `skill-installer` 指定的位置；默认是 `$CODEX_HOME/skills/edit-like-reiyo`，未设置 CODEX_HOME 时用用户主目录下 `.codex/skills/edit-like-reiyo`。Windows 使用本机主目录，别复制作者电脑路径。不要把整个试用包的外层目录当成 Skill 安装。
 6. 同名目录已存在时，比较文件：一致就报告已经安装；用户已明确要求更新时，先备份旧目录，核对上一版清单，只替换未被用户修改的随包文件；有自定义改动的文件保留并说明冲突，不覆盖用户修改。未获得更新授权时先询问是否替换。新的安装先在目标父目录暂存，核对完整性后再改成最终目录名。保留 ZIP 中可执行文件的权限。
 7. 检查 name 为 `edit-like-reiyo`、description 非空、关联文件齐全。可使用本机已有 skill-creator 校验器；不要为了简单安装另外下载开发工具。
-8. 告诉用户安装位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
+8. 安装结束核对目标文件夹 `PACKAGE.json` 的版本及对应清单文件内容，与本轮读取的仓库 VERSION 一致后，再告诉用户实际安装的版本、位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
 
 完整包：[edit-like-reiyo-v0.1.10.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.10.zip)
 
