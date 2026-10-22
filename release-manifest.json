@@ -1,13 +1,13 @@
 {
-  "version": "0.1.10-trial",
+  "version": "0.1.11-trial",
   "scope": "Files inside ZIP root edit-like-reiyo-trial; repository homepage README is separate",
   "files": {
-    "README.md": "ccc329c1ed9e38ee6dae6e71a22913d238adac998be4e78cd94850340fef494f",
+    "README.md": "75829edd87534a819e276a31ec3f163e93add0f8dc2d2b22aee4cd462d42dba9",
     "THIRD_PARTY.md": "793cac39343b2e25dc287d3f077d9a176b30095f6c18143ee841beb81f2303ef",
-    "VERSION": "1375efb58dbb88267595e2eb01a52377c69c1bf2cddbc7af5f019f74edefdd6c",
+    "VERSION": "fab18a8c81b5b7820ef79f784c29c984e78cfff763c4a6acc27e7808714e2f39",
     "edit-like-reiyo/DEPENDENCIES.json": "de313b8ed74ab0b209cdd479d1b06b554db687fdcada86b03bc3a03658a2a19b",
-    "edit-like-reiyo/PACKAGE.json": "4d4bb189d3395d9607bcdbf9c2134fd8a750fb9f15c4daadd8b70f47a0f349b7",
-    "edit-like-reiyo/SKILL.md": "ec09ccd13274e6aeff0309ef035a8e6447a872b34e7e6a059002d94205f91789",
+    "edit-like-reiyo/PACKAGE.json": "9686e9a27508eaa2b36df13ac86294843925ae5bd55d9e6d1d2ced1794716356",
+    "edit-like-reiyo/SKILL.md": "a365e581fff4ba4b017d39795d3b012adb1881ed4aa7f54d577bbebd9e1faf22",
     "edit-like-reiyo/assets/starter/catalog.json": "39e8f6553004bba95474754801b68bb99217444ce34e83ba78e1534cd29df9f1",
     "edit-like-reiyo/assets/starter/fonts/SmileySans-Oblique.ttf": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
     "edit-like-reiyo/assets/starter/fonts/SourceHanSansCN-Regular.otf": "e2bc8a2e7f37474b774fff8db758681ece40bb6947a90d571bce9dd60671a8e4",
@@ -37,13 +37,13 @@
     "edit-like-reiyo/assets/starter/sounds/ui-click1.wav": "3565d440c3516955d70bd2cec626ca5019732ceebb83e3ee420bba2e5ce64aed",
     "edit-like-reiyo/references/breath-cuts.md": "be22110ca47488c59a2724b71ef03ff34193e58b087f1d1dd2831cb6f8a4749b",
     "edit-like-reiyo/references/caption-composition.md": "e1e6775326ab60faffc952a7030f94c8752ef09786cde242030cfa040882bee9",
-    "edit-like-reiyo/references/compatibility.md": "4115d2bcff771b8c3a968b486bb00a516ce6e3cb489200f50ada39557d31a3d4",
+    "edit-like-reiyo/references/compatibility.md": "f4e0eb791afff02c684dfe44438f52939718db2f189616eb288d73942af7b214",
     "edit-like-reiyo/references/course-evidence.md": "be2105fc8de1de0d4fc7407913b1567cd56245b256ce5eb7db1a36695ea4efd5",
     "edit-like-reiyo/references/decision-trace.md": "5888726771c6d0c9c9e74a000bdc64b4b9b0ccb4f09ce667da29db18003005d8",
     "edit-like-reiyo/references/existing-edits.md": "0739c6622cd9b06807e04a3bde4d4d81cd5ba973f8d7ae304d8e90b4a954fab2",
     "edit-like-reiyo/references/favorite-sound-names.md": "348b692aa3609dabadfbed0861f08c4c2fa81ac03c9d9d0b0a117ba0169b1029",
     "edit-like-reiyo/references/judgment.md": "43127c6ae4d04978085eb462e5979672457571deca29f048c8a0af812e7779e7",
-    "edit-like-reiyo/references/local-execution.md": "0ad38e82ef95ca279c93fd1da878f5ad675a102c0a8b62f02c8365cd26c7b2eb",
+    "edit-like-reiyo/references/local-execution.md": "bafca1ab414b5f7d51bc8f368316811bc16b29dee999a2509fe4b941286536d5",
     "edit-like-reiyo/references/old-draft-cases.md": "dfc5fda3895a2f823c1e247232ded68ee14c4274787e89dcc9460155406ed738",
     "edit-like-reiyo/references/performance-recipes.md": "7b11244d0f515e6a715be5227dd0d3b75516d9565dc975b34a666ad73717c229",
     "edit-like-reiyo/references/plan-format.md": "1e6da0ea2e99bb600c67c09b47ae865d88409bde055bab76e5e893013af6cce9",
@@ -58,7 +58,7 @@
     "edit-like-reiyo/references/style-palette.md": "208395cdb775cd856e858b1b575da83a423ef973e5f5bb132dc7b51c87b9c2fd",
     "edit-like-reiyo/references/user-context-and-materials.md": "2c94dfadb1c8027fd2d9c21d044a0f34fbf56bf4f87e5004b8a1e1ee6b8da9f2",
     "edit-like-reiyo/references/visual-direction.md": "2d44f95dcdcce52a61b3445e33ec2aecb6feca97f35ff4b4b4762f9f97ddb915",
-    "edit-like-reiyo/references/windows-execution.md": "16168a3fe177820c3cba0c894be5a48624affbc154b5a2b023a5044e0984a66a",
+    "edit-like-reiyo/references/windows-execution.md": "c71faa95893da608a43fd440b6896ab42d62184f4dd6e816f0a65943f01653a4",
     "edit-like-reiyo/scripts/align_captions.py": "1f23e4027b1c1d23d5286de31c4582a9982c04c9777eec017172cf7932d97961",
     "edit-like-reiyo/scripts/analyze_media.py": "af5bbffaf89d212fba10df4d8b4b29faae89f932d18941ac25b56565c394a2fa",
     "edit-like-reiyo/scripts/apply_cuts.py": "d428d0634a1c0894c8f72dde62e900a2935002a0b549fe895afc64d8809f45c5",
@@ -140,6 +140,6 @@
     "edit-like-reiyo/scripts/vendor/jianying_codec/draft_crypto.py": "cb25e39fd7edafab12175712e7b4e78ca32411625f23ee38cc211c0067fd545a",
     "edit-like-reiyo/scripts/wave_sheet.swift": "cd406ca06d8786aa05a48d3f7dd5f1f1cc142e1d1564a2c6754818d2bcf867b9",
     "edit-like-reiyo/scripts/waveform.py": "c48d218728d3c3c10dbea445bddd2ff1e7c38fa237da12aae4ff68b4c6581fa2",
-    "edit-like-reiyo/使用方法.txt": "9453c4d6f48b9668c105de875c6c4d94ad98cf9b5c256074cd3585c46b24b333"
+    "edit-like-reiyo/使用方法.txt": "80cad1b8651b783937456a4985a0f699d3d4bdcb0e7b765dc43776d84bbf167d"
   }
 }
