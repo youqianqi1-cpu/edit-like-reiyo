@@ -6,7 +6,7 @@
 
 免费试用，适合已经在使用 Codex、电脑上装有剪映专业版的真人口播创作者。
 
-**v0.1.11 试用版：补充剪映实际版本检查，以及首次使用、升级或重装后的短段验证。已认可的气口、字幕、大字、景别和音效规则保持不变。**
+**v0.1.12 试用版：补充普通升级提醒自动取消，以及草稿要求升级时先停下说明。保留实际版本检查与短段验证。已认可的气口、字幕、大字、景别和音效规则保持不变。**
 
 v0.1.10 加入的 Reiyo 逐条讲解的 86 条音效用法继续保留。
 
@@ -20,7 +20,7 @@ v0.1.10 验证时在作者的剪映收藏取得候选，为约3分14秒的新试
 
 已安装的用户，把这句话交给 Codex：
 
-> 请从 https://github.com/youqianqi1-cpu/edit-like-reiyo 更新「剪出帧我」到当前最新版，直接读取仓库当前 VERSION 和 README，核对下载包及实际安装版本一致，至少包含 v0.1.11 的版本检查修订；保留我的个人偏好、自定义文件和已有草稿，并告诉我实际安装的 Skill 版本、剪映版本和构建号，以及是否需要重新做短段验证。先检查，不自动重剪整片，也不自动更换剪映版本。
+> 请从 https://github.com/youqianqi1-cpu/edit-like-reiyo 更新「剪出帧我」到当前最新版，直接读取仓库当前 VERSION 和 README，核对下载包及实际安装版本一致，至少包含 v0.1.12 的升级提醒处理；保留我的个人偏好、自定义文件和已有草稿，并告诉我实际安装的 Skill 版本、剪映版本和构建号，以及是否需要重新做短段验证。先检查，不自动重剪整片，也不自动更换剪映版本。
 
 安装或更新的版本以仓库当前 [VERSION](https://raw.githubusercontent.com/youqianqi1-cpu/edit-like-reiyo/main/VERSION) 为准，下载入口见当前 [README 原文件](https://raw.githubusercontent.com/youqianqi1-cpu/edit-like-reiyo/main/README.md)。
 
@@ -54,6 +54,8 @@ v0.1.10 验证时在作者的剪映收藏取得候选，为约3分14秒的新试
 2026年10月22日，本机 Mac 的剪映版本与构建号均为11.6.0，上述6秒测试通过。同日本机进入11.7测试系列后曾出现明确拒绝读取，重装11.6.0后恢复。该结果不代表所有同版本安装包、复杂效果、完整听感或Windows均已验证；以各台电脑的短段结果为准。
 
 如果出现拒绝读取，Codex会停下并说明版本与具体卡点，不反复重试，不自动重新安装或更换剪映。你决定调整软件后，再做一次短段验证。
+
+剪辑中弹出普通升级提醒时，Codex 会选择“取消／暂不升级／稍后”，继续使用当前版本。如果提示草稿必须升级才能打开，就先停下说明，不反复尝试，也不替你升级。取消提醒不会关闭软件的自动更新；如果版本已经变化，仍需重新做短段验证。
 
 ## 一直闪烁“等待回答／等待批准”，却没有按钮怎么办？
 
@@ -117,10 +119,10 @@ Mac 的应用记录通常在 ~/Library/Logs/com.openai.codex/，聊天记录通�
 7. 检查 name 为 `edit-like-reiyo`、description 非空、关联文件齐全。可使用本机已有 skill-creator 校验器；不要为了简单安装另外下载开发工具。
 8. 安装结束核对目标文件夹 `PACKAGE.json` 的版本及对应清单文件内容，与本轮读取的仓库 VERSION 一致后，再告诉用户实际安装的版本、位置与简短用法：“下一轮消息告诉我，用剪出帧我剪这条视频。”只报告实际验证的安装结果，不把安装成功写成剪辑兼容性已验证。具体电脑条件在首次剪辑时按 Skill 的 preflight 与平台说明处理。
 
-完整包：[edit-like-reiyo-v0.1.11.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.11.zip)
+完整包：[edit-like-reiyo-v0.1.12.zip](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.12.zip)
 
-SHA-256：`88ac8b028940b7d13aa70224fa0e5c3785ae03aaacd6a8636ab4890b9ccd1bef`
+SHA-256：`0c42dc0fdc13700a3f0c2bd0646c51e9f282826450e8e3efdc0e4ccd34feb36b`
 
 </details>
 
-[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.11.zip) · 作者：[ReiyoLab](https://reiyolab.com)
+[手动下载完整试用包](https://github.com/youqianqi1-cpu/edit-like-reiyo/raw/refs/heads/main/edit-like-reiyo-v0.1.12.zip) · 作者：[ReiyoLab](https://reiyolab.com)
